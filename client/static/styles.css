@@ -1,0 +1,133 @@
+body {
+	color: white;
+	margin: 0 auto;
+	background: black;
+}
+
+.container {
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.page {
+	font-size: 24px;
+}
+
+.instruction, .debriefing, .explanation, .questions, .exp-feedback {
+	margin-top: 10%;
+}
+
+.instruction .intro {
+	padding-bottom: 30px;
+}
+
+.explanation-heading {
+	cursor: pointer;
+}
+
+.heading {
+	font-size: 40px;
+	padding-bottom: 15px;
+}
+
+.explanation .target {
+	padding: 20px;
+}
+
+.listened {
+	padding-top: 10px;
+}
+
+.explanation .wide {
+	letter-spacing: 10px;
+}
+
+.explanation .right {
+	color: green;
+	font-size: 24px;
+}
+
+.explanation .wrong {
+	color: red;
+	font-size: 24px;
+}
+
+.questions form .row {
+	padding-top: 20px;
+}
+
+.create-new-participant > legend {
+	color: white;
+	font-size: 40px;
+}
+
+.flanker {
+	top: 50%;
+	left: 25%;
+	right: 25%;
+	color: white;
+	font-size: 70px;
+	margin-top: -60px;
+	position: absolute;
+	text-align: center;
+	letter-spacing: 0px;
+}
+
+.flanker-feedback {
+	top: 30%;
+	left: 25%;
+	right: 25%;
+	color: white;
+	font-size: 40px;
+	margin-top: -30px;
+	position: absolute;
+	text-align: center;
+}
+
+.prime {
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	position: absolute;
+}
+
+.prompt {
+	font-size: 30px;
+	text-decoration: underline;
+}
+
+.questions input[type="text"] {
+	height: 50px;
+	padding: 8px;
+	font-size: 30px;
+}
+
+#errors {
+	color: red;
+}
+
+#code {
+	padding-top: 20px;
+	font-size: 30px;
+}
+
+#practice-press {
+	font-size: 70px;
+	position: fixed;
+	bottom: 200px;
+	left: 200px;
+}
+
+.btn-xl {
+	padding: 18px 28px;
+	font-size: 22px;
+	line-height: normal;
+	border-radius: 8px;
+}
+
+.hideCursor {
+	cursor: url("transparent.gif"), url("transparent.ani"), auto;
+}

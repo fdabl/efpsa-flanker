@@ -1,0 +1,33 @@
+{
+	"node": true,
+	"browser": true,
+	"es5": false,
+	"esnext": false,
+
+	"indent": 2,
+	"maxlen": 79,
+  "expr": true,
+	"curly": false,
+	"newcap": true,
+	"strict": false,
+	"trailing": true,
+	"camelcase": true,
+	"quotmark": "single",
+
+	"bitwise": true,
+	"eqeqeq": false,
+
+	"immed": true,
+	"noarg": true,
+	"undef": true,
+	"latedef": true,
+
+	"smarttabs": true,
+	"regexp": true,
+
+	"predef": [
+	  "describe",
+	  "alert",
+	  "emit"
+	]
+}

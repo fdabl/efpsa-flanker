@@ -1,0 +1,29 @@
+{
+  "name": "crowd-flanker",
+  "version": "0.0.0",
+  "description": "extended flanker task written in node.js and backbone.js with browserify",
+  "author": "Fabian Dablander",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dostodabsi/crowd-flanker"
+  },
+  "dependencies": {
+    "jquery": "^2.1.0",
+    "underscore": "^1.6.0",
+    "backbone": "^1.1.2",
+    "nano": "^5.7.1",
+    "express": "^4.0.0",
+    "body-parser": "^1.0.2",
+    "method-override": "^1.0.0"
+  },
+  "devDependencies": {
+    "brfs": "^1.0.2",
+    "gulp": "^3.6.1",
+    "gulp-browserify": "^0.5.0",
+    "gulp-jshint": "^1.5.3",
+    "gulp-uglify": "^0.2.1",
+    "vinyl-source-stream": "^0.1.1",
+    "watchify": "^0.7.0"
+  }
+}
