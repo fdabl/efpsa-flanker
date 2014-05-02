@@ -8,7 +8,7 @@ function Flanker(config, callback) {
   this.ISI          = config.ISI || 500;
   this.timeout      = config.timeout || 1500;
   this.pauseTime    = config.pauseTime || 500;
-  this.trialCount   = config.trialCount || 12;
+  this.trialCount   = config.trialCount || 100;
   this.practice     = config.practice || false;
   this.feedbackTime = config.feedbackTime || 600;
 
