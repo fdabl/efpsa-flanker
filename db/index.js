@@ -1,6 +1,6 @@
 var url  = process.env.CLOUDANT_URL || 'http://localhost:5984';
 var nano = require('nano')(url);
-var db   = nano.use('bakk');
+var db   = nano.use('flanker');
 
 exports.createUser = function(req, res, next) {
   db.insert(req.body, function(err, body) {
